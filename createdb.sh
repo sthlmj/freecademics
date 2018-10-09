@@ -1,1 +1,1 @@
-mysql -u admin -p=aa < database.sql
+mysql -u root -pcb099d29c6b < database.sql
