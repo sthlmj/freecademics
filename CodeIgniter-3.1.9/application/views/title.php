@@ -12,6 +12,8 @@ html, body {
 }
 #divHeader {
     background-color:#1c3e4f;
+    margin: 0px;
+    padding: 0px;
     margin-top: 0px;
     margin-bottom: 0px;
     margin-left: 0px;
@@ -25,32 +27,14 @@ html, body {
 	 margin-left: 20%;
 	 margin-top: 30px;
 }
-#divCategories {
-	 background-color:#1c3e4f;
-	 margin: 50px;
-}
-#h2Categories {
-	 color: white;
-	 margin: 20px;
-}
 </style>
 </head>
 <body bgcolor="lightblue">
 
 <div id="divHeader">
 <br>
-<br>
 	<h1 id="h1Title">Freelance Academics</h1>
 
 </div>
 
-<div id="divCategories">
- <h2 id="h2Categories">Categories</h2><
- <h4>Journalistic</h4>
- <h4>Programmering</h4>
-</div>
 
-</div>
-
-</body>
-</html>
