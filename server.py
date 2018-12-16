@@ -18,7 +18,10 @@ class Server(BaseHTTPRequestHandler):
         self.end_headers()
         # Start
         self.wfile.write(bytes("<html>" +
-        "<body bgcolor=\"#487cbc\">", "UTF-8"))
+        "<head>" +
+        "<link rel=\"stylesheet\" type=\"text/css\" href=\"head.css\">" + 		
+        "</head>" + 
+		"<body bgcolor=\"#487cbc\">", "UTF-8"))
         # Document header
         self.wfile.write(header())
         # Document body
