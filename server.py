@@ -14,11 +14,20 @@ class Server(BaseHTTPRequestHandler):
     if self.path.endswith(".html"):
         self.send_response(200)
         self.send_header('Content-type', 'text/html')
+		
         self.end_headers()
-	
-        self.wfile.write(header())    
+        # Start
+        self.wfile.write(bytes("<html>" +
+        "<body bgcolor=\"#487cbc\">", "UTF-8"))
+        # Document header
+        self.wfile.write(header())
+        # Document body
         content = bytes("Hello World2", "UTF-8")
         self.wfile.write(content)
+        # End		
+        self.wfile.write(bytes("</body>" + 
+        "</html>", "UTF-8"))
+        
 
         sendReply = False
     if self.path.endswith(".jpg"):

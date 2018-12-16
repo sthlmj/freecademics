@@ -1,4 +1,4 @@
 def header():
-	return bytes("Freelance academic" +
+	return bytes("" +
 	"<img src=\"logo.png\"></img>"
 	, "UTF-8")
