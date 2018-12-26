@@ -1,4 +1,4 @@
-def header():
+def index():
 	return bytes("" +
-	"<div></div>" 
+	"<div>Index works</div>" 
 	, "UTF-8")

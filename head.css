@@ -1,3 +1,5 @@
+body { background: #487cbc !important; } /* Adding !important forces the browser to overwrite the default style applied by Bootstrap */
+   
 /* Add a black background color to the top navigation bar */
 .topnav {
   overflow: hidden;

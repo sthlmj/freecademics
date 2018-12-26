@@ -3,9 +3,9 @@ def header():
 	"<img src=\"logo.png\"></img>" + 
 	"<br />"
 	"<div class=\"topnav\">" + 
-	"<a class=\"active\" href=\"home\">Hem</a>" + 
-	"<a href=\"about\">Annonsera</a>" + 
-	"<a href=\"contact\">Contact</a>" + 
-	"<input type=\"text\" placeholder=\"Sök..\">" + 
+	"<a class=\"active\" href=\"index\">Hem</a>" + 
+	"<a href=\"assignments\">Uppdrag</a>" + 
+	"<a href=\"freelancers\">Frilansare</a>" + 
+	"<input type=\"text\" placeholder=\"S&ouml;k..\">" + 
 	"</div>" 
 	, "UTF-8")
